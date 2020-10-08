@@ -1,0 +1,45 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Project Name
+VERSION:	Versoin Number
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+-------------------------------------------------------------------*/
+
+@import 'variables';
+
+@import 'mixins';
+
+@import 'typography';
+
+@import 'buttons';
+
+@import 'common';
+
+@import 'templates/navigation.scss';
+
+@import 'templates/main.scss';
+
+
+.brand {
+    text-decoration: none;
+    color: #ea7317 !important;
+    font-weight: 600 !important;
+    font-size: 6em;
+}
+
+@media screen and (max-width: 640px) {
+    .brand {
+       font-size: 4em;
+    }
+  }
+
+.indicnlp {
+    font-weight: 600;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+}
