@@ -1,0 +1,11 @@
+
+{{ if (isset .Params "title") }}
+<section class="section pb-0">
+  <div class="container text-center">
+      <h1 class="display-3">{{ .Title | markdownify }}</h1>
+      {{ with .Params.subtitle }}
+        <p>{{ . | markdownify }}</p>
+      {{ end }}
+  </div>
+</section>
+{{end}}

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bigspring Hugo</title>
+    <title>AI4Bharat</title>
     <link>/</link>
-    <description>Recent content on Bigspring Hugo</description>
+    <description>Recent content on AI4Bharat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Apr 2020 10:07:21 +0600</lastBuildDate>
@@ -13,55 +13,64 @@
     
     <item>
       <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>/blog/post-1/</link>
+      <link>/articles/post-4/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
       
-      <guid>/blog/post-1/</guid>
+      <guid>/articles/post-4/</guid>
       <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
     </item>
     
     <item>
       <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>/blog/post-4/</link>
+      <link>/articles/post-5/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
       
-      <guid>/blog/post-4/</guid>
+      <guid>/articles/post-5/</guid>
       <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
     </item>
     
     <item>
       <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>/blog/post-5/</link>
+      <link>/articles/post-6/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
       
-      <guid>/blog/post-5/</guid>
+      <guid>/articles/post-6/</guid>
       <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
     </item>
     
     <item>
-      <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>/blog/post-6/</link>
+      <title>Party at the Backyard</title>
+      <link>/events/event-1/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
       
-      <guid>/blog/post-6/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>/events/event-1/</guid>
+      <description>Do join us</description>
     </item>
     
     <item>
       <title>Pump-up the team morale and celebrate the excellence</title>
-      <link>/blog/post-2/</link>
+      <link>/articles/post-2/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
       
-      <guid>/blog/post-2/</guid>
+      <guid>/articles/post-2/</guid>
       <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
     </item>
     
     <item>
-      <title>screens with built in Present and Dismiss animations.</title>
-      <link>/blog/post-3/</link>
+      <title>Remote Sensing with Satellite Imagery with Deep Learning</title>
+      <link>/articles/post-1/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
       
-      <guid>/blog/post-3/</guid>
+      <guid>/articles/post-1/</guid>
+      <description>With the proliferation of satellites for remote sensing, myriad use-cases have emerged for applying computer vision for sustainability goals of monitoring forests, flood plains, mines, and farms</description>
+    </item>
+    
+    <item>
+      <title>screens with built in Present and Dismiss animations.</title>
+      <link>/articles/post-3/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>/articles/post-3/</guid>
       <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
     </item>
     

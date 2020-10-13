@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Remote Sensing with Satellite Imagery with Deep Learning</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+  
+  
+  <meta property="og:image" content="/images/blog/vadodara.jpg" />
+  
+  <meta property="og:title" content="Remote Sensing with Satellite Imagery with Deep Learning" />
+<meta property="og:description" content="This is meta description" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/articles/post-1/" />
+<meta property="article:published_time" content="2020-04-18T10:07:21+06:00" />
+<meta property="article:modified_time" content="2020-04-18T10:07:21+06:00" />
+
+  
+  
+  
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="/">
+        
+        <img width="200px" class="img-fluid" style="width: 5em;" src="/images/logo.png" alt="AI4Bharat"></a>
+        
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">Projects</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/articles">Articles</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/events">Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        
+        <a href="/contact" class="btn btn-sm btn-primary ml-3"><i class="ti-github"></i> Github</i></a>
+        
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+
+
+
+<section class="section pb-0">
+  <div class="container text-center">
+      <h1 class="display-3">Remote Sensing with Satellite Imagery with Deep Learning</h1>
+      
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content"><p>With the proliferation of satellites for remote sensing, myriad use-cases have emerged for applying computer vision for sustainability goals of monitoring forests, flood plains, mines, and farms</p>
+<hr>
+<h3 id="context">Context</h3>
+<p>Space technology has ostensibly moved from being accessible only to large governments to being disrupted by startups. The cost of placing a cube-sat on orbit is estimated to be less that INR 1.5 crores today; which is about 1000x drop in 10 years. The immediate consequence of this has been democratised access to cheap-to-free satellite imagery. For instance, a 185 x 185 sq km image from Landsat (a family of US satellites) cost about USD 1,500—2,000 in the early 80s. After the US announced its Landsat Free and Open Data Policy in 2008, most Landsat products since 1972 are available for free.  The EU has similarly provided free access to the data from the Sentinel family of satellites. In India, ISRO has made available parts of the Resourcesat-2/2A data free for download from the Bhuvan website. It is clear that data is no more the barrier anymore to remote sensing applications. This trend will robustly continue as several private companies are planning to launch satellite constellations. This will mean that satellite imagery would get better along three dimensions: time and space resolutions and the number of frequency bands available.</p>
+<p><img src="../../images/blog/ai-in-space-technology-an-overview.png" alt="AI in Space Tech"></p>
+<p>From data, the focus is ostensibly now on intelligence. Given the easy access to data, the search is on for value-add applications in domains such as agriculture, oil and gas, construction, transportation, and defence. Indeed, the last five years has seen innovation by several newly founded software-like startups in this space. A good summary of the commercial interest is provided by this table from Crunchbase and CBInsights. (The table is titled EO + ML to refer to combination of Earth Observation and Machine Learning.) In India, perhaps the biggest name in this domain is that of SatSure which began looking into the agriculture farm insurance vertical and has later diversified into other areas.</p>
+<h3 id="role-of-machine-learning">Role of Machine Learning</h3>
+<p>Given access to a large database of satellite imagery, variety of problems emerge which fit into standard machine learning formulations. First, is the task of object detection: Drawing bounding boxes around identified objects in the image. Examples of these include detecting ships, cars, trains, buildings, mines, etc. Standard convolutional neural networks (CNNs) can be employed, but the primarily challenges are the large scale of satellite images and the often very small sizes and variable aspect ratios of the objects. These challenges are well illustrated in this image for detecting ships from the paper titled “You Look Only Twice”. Apart from dealing with spatial dimensions, satellite images have multiple frequency bands and thus provide interesting choices on feature selection for processing with CNNs.</p>
+<p>The second set of tasks is of change detection, where the goal is to identify regions which have changed when contrasting two satellite images. This has applications in determining extent of damage during natural disasters, understanding the growth of cities, and also determining deforestation. This is well illustrated with the following image from the recent paper titled “From Satellite Imagery to Disaster Insights”. The researchers compute a pixelwise change and from it a disaster impact index. They successfully apply their methods for recent hurricane and fire incidents in the US. Such analysis at scale and help efficient planning of humanitarian aid and infrastructure re-development.</p>
+<p>Combining computer vision techniques for object and change detection with other sources of data can lead to variety of interesting end use-cases. A celebrated result is the accuracy of predicting corn yield by Descartes Lab. The image on the right taken from their official blog, shows the result of their object detection where they are able to use both object (across space) and change detection (across time) to segment the image into individual soy (green) and corn (yellow) farms. They combine this information with weather information to predict corn output and have managed to be within 1% of official yield figures.</p>
+<p>Apart from object and change detection, deep learning also finds utility in pre-processing of satellite imagery. This includes both sharpening and alignment or registration. Also, there is the traditional problem of classifying land use, which can be formulated either as pixel wise segmentation or scene recognition. All these tasks are supervised in nature and require training data with manual labels. Augmentation plays a very dominant role here since inferences on satellite imagery is expected to be invariant to scale and rotation. In summary, processing satellite imagery involves a select few, but standard, tasks in computer vision. Dealing with volume, scale, and multiple input channels are the primary challenges.</p>
+<h3 id="open-source-tools">Open source tools</h3>
+<p>The characteristic aspect of the Machine Learning growth in the last decade has been democratisation of the methods with an open-source-first policy. In the case of satellite imagery too, several interesting projects provide open-source tools. One of the most promising examples is the raster-vision repository by Azavea. They also provide a very useful labelling and visualisation tool Geotrellis.</p>
+<p>In terms of datasets, there are still no dominantly used benchmarks. As research in the field evolves, we expect this to change. There have been a couple of recent contests (with datasets) such as DeepGlobe, Earth vision, and monitoring rainforests.</p>
+<h3 id="comment">Comment</h3>
+<p>The last decade has moved from expensive satellite data to cheap-to-free data. We expect the next phase to move from complicated models for processing the images to democratised machine learning models for the few common tasks discussed above. This a key innovation piece that AI4Bharat wants to contribute to. We would like to make open-source tools available to ingest, process, and then apply machine learning to satellite imagery. We hope to achieve this in collaboration with governtment agencies such as the National Remote Sensing Center.</p>
+<p>Once such ML models are democratised, further innovation would focus on building specific solutions for different challenges. Monitoring quality of water bodies including the Ganga, detecting illegal mining practices, and correlating government schemes with building of rural infrastructure are all substantially relevant in the social context. In addition, variety of commercial applications like advisory for farm insurance, tracking of shipments, and planning real-estate expansions would continue to scale up, and will be well served by existing and upcoming startups in the space.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        <h3 class="mb-4">Organization</h3>
+        <ul class="list-unstyled footer-list">
+          
+          <li><a href="/">About Us</a></li>
+          
+          <li><a href="/">Quick Start</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <h3 class="mb-4">Projects</h3>
+        <ul class="list-unstyled footer-list">
+          
+          <li><a href="/">Features</a></li>
+          
+          <li><a href="/">Platform</a></li>
+          
+          <li><a href="/pricing">Pricing</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <h3 class="mb-4">Support</h3>
+        <ul class="list-unstyled footer-list">
+          
+          <li><a href="/faq">FAQ</a></li>
+          
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          
+          <li><a href="/terms-conditions">Terms &amp; Conditions</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href="/"><img width="200px"  class="img-fluid" src="/images/logo.png" alt="AI4Bharat"></a>
+        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.</p>
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design By <a href="https://themefisher.com/">Themefisher</a> Develop By <a href="https://gethugothemes.com/">Gethugothemes</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script></body>
+
+</html>
