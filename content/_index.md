@@ -39,27 +39,24 @@ projects:
   enable : true
   title : "Projects"
   feature_item:
-    # feature item loop
-    - name : "IndicNLPSuite"
-      content : "nological and otherwise. "
-      
-    # feature item loop
-    - name : "ezAnnotate"
-      content : "theat"
+    
+    - name : "IndicNLP Suite"
+      content : "Creating NLP tools, models and datasets for Indian languages"
 
-    # feature item loop
-    - name : "Transliteration"
-      content : "India is a country very rich in languages and culture, but very poor in resources and methods for language processing and digital restoration."
+    - name : "Indic Input Tools"
+      content : "Creating input tools for all Indian languages for typing in Indic scripts"
+
+    - name : "ezAnnotate"
+      content : "Annotation tool for labeling datasets for machine learning tasks"
       
-    # feature item loop
-    - name : "Fonts GAN"
+    - name : "IndicFonts"
       image : "images/digital-india.jpg"
-      content : "A horizontal requirement across all domains is the need for digitisation, in which AI can play a disruptive role."
+      content : "Generating fonts using A.I. for Indic scripts."
       
-    # feature item loop
     - name : "Sign Language"
       image : "images/smart-cities.jpg"
-      content : "With a mission to develop 100 cities, there is a need for AI to play a significant role in making our cities more efficient and sustainable."
+      content : "Developing tools for recognizing and transcribing Indo Sign Language."
+
 call_to_action:
   enable : true
   title : "Ready to get started?"

@@ -116,8 +116,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [params.navigation_button]
 enable = true
-label = "Github"
-link = "contact"
+label = "GitHub"
+link = "https://github.com/AI4Bharat"
 
 
 ############################# social site ########################

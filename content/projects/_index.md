@@ -62,25 +62,140 @@ call_to_action:
 
 
 
-{{< faq "IndicNLP" >}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "🤗 IndicNLP" >}}
+
+Creating open source NLP tools, models and datasets for all Indian languages using state-of-the-art deep learning approaches.
+
+<a href="http://indicnlp.ai4bharat.org" class="btn btn-primary">Website</a>
+<a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf" class="btn btn-primary">Paper</a>
+<a href="https://github.com/AI4Bharat" class="btn btn-primary">Code</a>
+
+<table style="border-collapse: inherit; border-spacing: 20px;">
+  <tr><th>Members</th><th>Mentors</th></tr>
+  <tr>
+    <td>
+      <table><tr>
+        <td align="center"><a href="https://github.com/DivKakwani"><img src="https://avatars2.githubusercontent.com/u/2513455?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Divyanshu</b></sub></a></td>
+        <td align="center"><a href="http://github.com/satti007"><img src="https://avatars0.githubusercontent.com/u/8908621?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Satish</b></sub></a></td>
+        <td align="center"><a href="https://github.com/GokulNC"><img src="https://avatars0.githubusercontent.com/u/10559293?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Gokul NC</b></sub></a></td>
+        <td align="center"><a href="https://github.com/react117"><img src="https://avatars0.githubusercontent.com/u/30906514?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Avik</b></sub></a></td>
+      </tr></table>
+    </td>
+    <td>
+      <table><tr>
+        <td align="center"><a href="http://anoopk.in"><img src="https://avatars0.githubusercontent.com/u/2256602?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Anoop</b></sub></a></td>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~miteshk"><img src="https://avatars0.githubusercontent.com/u/4814357?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Mitesh</b></sub></a></td>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~pratyush"><img src="https://avatars0.githubusercontent.com/u/49815493?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Pratyush</b></sub></a></td>
+      </tr></table>
+    </td>
+  </tr>
+</table>
+
 {{</ faq >}}
 
-{{< faq "Transliteration" >}}
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://examplesite.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "💻 Indic Input Tools" >}}
+
+Creating input tools for all Indian languages for typing in Indic scripts, in collaboration with Google AI and Pratham Books / StoryWeaver.
+
+<a href="http://xlit.ai4bharat.org" class="btn btn-primary">Website</a>
+<a href="https://github.com/AI4Bharat/IndianNLP-Transliteration" class="btn btn-primary">Code</a>
+<a href="https://swipe.ai4bharat.org" class="btn btn-primary">Indic Swipe Research</a>
+
+<table style="border-collapse: inherit; border-spacing: 20px;">
+  <tr><th>Members</th><th>Mentors</th></tr>
+  <tr>
+    <td>
+      <table><tr>
+        <td align="center"><a href="http://github.com/JosephGeoBenjamin"><img src="https://avatars0.githubusercontent.com/u/40231481?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Joseph Geo</b></sub></a></td>
+        <td align="center"><a href="https://github.com/GokulNC"><img src="https://avatars0.githubusercontent.com/u/10559293?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Gokul NC</b></sub></a></td>
+      </tr></table>
+    </td>
+    <td>
+      <table><tr>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~miteshk"><img src="https://avatars0.githubusercontent.com/u/4814357?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Mitesh</b></sub></a></td>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~pratyush"><img src="https://avatars0.githubusercontent.com/u/49815493?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Pratyush</b></sub></a></td>
+      </tr></table>
+    </td>
+  </tr>
+</table>
+
 {{</ faq >}}
 
-{{< faq "ezAnnotate" >}}
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://examplesite.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "🐱‍🏍 ezAnnotate" >}}
+
+Annotation tool for labeling datasets for machine learning and NLP tasks.
+
+<a href="http://docs.ezannotate.ai4bharat.org" class="btn btn-primary">Website</a>
+<a href="https://github.com/AI4Bharat/ezAnnotate" class="btn btn-primary">Code</a>
+<a href="https://ezannotate.ai4bharat.org" class="btn btn-primary">Demo</a>
+
+<table style="border-collapse: inherit; border-spacing: 20px;">
+  <tr><th>Members</th></tr>
+  <tr>
+    <td>
+      <table><tr>
+        <td align="center"><a href="https://github.com/react117"><img src="https://avatars0.githubusercontent.com/u/30906514?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Avik</b></sub></a></td>
+        <td align="center"><a href="https://github.com/Prem-kumar27"><img src="https://avatars0.githubusercontent.com/u/14202523?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Prem</b></sub></a></td>
+        <td align="center"><a href="https://github.com/GokulNC"><img src="https://avatars0.githubusercontent.com/u/10559293?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Gokul NC</b></sub></a></td>
+      </tr></table>
+    </td>
+  </tr>
+</table>
+
 {{</ faq >}}
 
-{{< faq "Fonts GAN" >}}
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://examplesite.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "✍🏼 IndicFonts" >}}
+
+Generating fonts using A.I. for Indian Language-Scripts using style-transfer GANs.
+
+<a href="http://fonts.ai4bharat.org" class="btn btn-primary">Website</a>
+<a href="https://github.com/AI4Bharat/Fonts-for-Indian-Scripts" class="btn btn-primary">Code</a>
+<a href="https://demo.fonts.ai4bharat.org" class="btn btn-primary">Demo</a>
+
+<table style="border-collapse: inherit; border-spacing: 20px;">
+  <tr><th>Members</th><th>Mentors</th></tr>
+  <tr>
+    <td>
+      <table><tr>
+        <td align="center"><a href="http://github.com/IshvinderSethi22"><img src="https://avatars0.githubusercontent.com/u/26191118?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Ishvinder</b></sub></a></td>
+        <td align="center"><a href="https://github.com/S7309"><img src="https://avatars0.githubusercontent.com/u/36332337?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Harendra</b></sub></a></td>
+      </tr></table>
+    </td>
+    <td>
+      <table><tr>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~miteshk"><img src="https://avatars0.githubusercontent.com/u/4814357?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Mitesh</b></sub></a></td>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~pratyush"><img src="https://avatars0.githubusercontent.com/u/49815493?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Pratyush</b></sub></a></td>
+      </tr></table>
+    </td>
+  </tr>
+</table>
+
 {{</ faq >}}
 
-{{< faq "Sign Language" >}}
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://examplesite.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "🖖🏼 Sign Language" >}}
+
+Developing tools for recognizing and transcribing Indo Sign Language.
+
+<a href="http://sign-language.ai4bharat.org" class="btn btn-primary">Website</a>
+<a href="#" class="btn btn-primary">Code</a>
+<a href="https://dl.acm.org/doi/10.1145/3394171.3413528" class="btn btn-primary">Paper</a>
+
+<table style="border-collapse: inherit; border-spacing: 20px;">
+  <tr><th>Members</th><th>Mentors</th></tr>
+  <tr>
+    <td>
+      <table><tr>
+        <td align="center"><a href="http://github.com/gRohith327"><img src="https://avatars0.githubusercontent.com/u/36641932?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Rohith</b></sub></a></td>
+        <td align="center"><a href="https://github.com/ads28"><img src="https://avatars0.githubusercontent.com/u/36174577?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Advaith</b></sub></a></td>
+      </tr></table>
+    </td>
+    <td>
+      <table><tr>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~pratyush"><img src="https://avatars0.githubusercontent.com/u/49815493?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Pratyush</b></sub></a></td>
+      </tr></table>
+    </td>
+  </tr>
+</table>
+
 {{</ faq >}}
-
-
 
