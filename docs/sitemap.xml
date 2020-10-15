@@ -53,6 +53,10 @@
   </url>
   
   <url>
+    <loc>/projects/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
   </url>
   
@@ -66,10 +70,6 @@
   
   <url>
     <loc>/privacy-policy/</loc>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
   </url>
   
   <url>

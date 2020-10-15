@@ -37,14 +37,17 @@ domains :
       content : "Urgent solutions, enhanced with AI, are needed for major challenges in water scarcity, air pollution, wildlife conversation, epidemics control, and disaster management."
 projects:
   enable : true
-  title : "Projects"
+  title : "Projects Overview"
   feature_item:
     
     - name : "IndicNLP Suite"
       content : "Creating NLP tools, models and datasets for Indian languages"
 
-    - name : "Indic Input Tools"
+    - name : "Indic Transliteration"
       content : "Creating input tools for all Indian languages for typing in Indic scripts"
+    
+    - name : "Indic Swipe"
+      content : "Creating swipe-based keypad typing for Indian languages"
 
     - name : "ezAnnotate"
       content : "Annotation tool for labeling datasets for machine learning tasks"
@@ -53,12 +56,18 @@ projects:
       image : "images/digital-india.jpg"
       content : "Generating fonts using A.I. for Indic scripts."
       
-    - name : "Sign Language"
+    - name : "Indo Sign Language"
       image : "images/smart-cities.jpg"
       content : "Developing tools for recognizing and transcribing Indo Sign Language."
+    
+    - name : "Indic OCR"
+      content : "Coming Soon - Indic Scene Text Recognition and Document Extraction"
+    
+    - name : "Indian Speech2Text"
+      content : "Coming Soon..."
 
 call_to_action:
-  enable : true
+  enable : false
   title : "Ready to get started?"
   image : "images/cta.svg"
   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."

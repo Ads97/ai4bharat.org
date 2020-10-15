@@ -1,8 +1,8 @@
 ---
-title: "Projects"
+title: "Active Projects"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "List of all currently active projects"
 draft: false
 
 basic:
@@ -51,12 +51,12 @@ business:
 
 call_to_action:
   enable : true
-  title : "Need a larger plan?"
+  title : "Want to contribute?"
   image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content : "If you are interested in contributing or suggesting new ideas or projects, you are more than welcome to join us!"
   button:
     enable : true
-    label : "Contact Us"
+    label : "Join Us"
     link : "contact"
 ---
 
@@ -66,9 +66,9 @@ call_to_action:
 
 Creating open source NLP tools, models and datasets for all Indian languages using state-of-the-art deep learning approaches.
 
-<a href="http://indicnlp.ai4bharat.org" class="btn btn-primary">Website</a>
-<a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf" class="btn btn-primary">Paper</a>
-<a href="https://github.com/AI4Bharat" class="btn btn-primary">Code</a>
+<a href="http://indicnlp.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf" class="btn btn-primary btn-sm">Paper</a>
+<a href="https://github.com/AI4Bharat" class="btn btn-primary btn-sm">Code</a>
 
 <table style="border-collapse: inherit; border-spacing: 20px;">
   <tr><th>Members</th><th>Mentors</th></tr>
@@ -97,9 +97,9 @@ Creating open source NLP tools, models and datasets for all Indian languages usi
 
 Creating input tools for all Indian languages for typing in Indic scripts, in collaboration with Google AI and Pratham Books / StoryWeaver.
 
-<a href="http://xlit.ai4bharat.org" class="btn btn-primary">Website</a>
-<a href="https://github.com/AI4Bharat/IndianNLP-Transliteration" class="btn btn-primary">Code</a>
-<a href="https://swipe.ai4bharat.org" class="btn btn-primary">Indic Swipe Research</a>
+<a href="http://xlit.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="https://github.com/AI4Bharat/IndianNLP-Transliteration" class="btn btn-primary btn-sm">Code</a>
+<a href="https://swipe.ai4bharat.org" class="btn btn-primary btn-sm">Indic Swipe Research</a>
 
 <table style="border-collapse: inherit; border-spacing: 20px;">
   <tr><th>Members</th><th>Mentors</th></tr>
@@ -121,13 +121,13 @@ Creating input tools for all Indian languages for typing in Indic scripts, in co
 
 {{</ faq >}}
 
-{{< faq "🐱‍🏍 ezAnnotate" >}}
+{{< faq "🔨 ezAnnotate" >}}
 
 Annotation tool for labeling datasets for machine learning and NLP tasks.
 
-<a href="http://docs.ezannotate.ai4bharat.org" class="btn btn-primary">Website</a>
-<a href="https://github.com/AI4Bharat/ezAnnotate" class="btn btn-primary">Code</a>
-<a href="https://ezannotate.ai4bharat.org" class="btn btn-primary">Demo</a>
+<a href="http://docs.ezannotate.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="https://github.com/AI4Bharat/ezAnnotate" class="btn btn-primary btn-sm">Code</a>
+<a href="https://ezannotate.ai4bharat.org" class="btn btn-primary btn-sm">Demo</a>
 
 <table style="border-collapse: inherit; border-spacing: 20px;">
   <tr><th>Members</th></tr>
@@ -148,9 +148,9 @@ Annotation tool for labeling datasets for machine learning and NLP tasks.
 
 Generating fonts using A.I. for Indian Language-Scripts using style-transfer GANs.
 
-<a href="http://fonts.ai4bharat.org" class="btn btn-primary">Website</a>
-<a href="https://github.com/AI4Bharat/Fonts-for-Indian-Scripts" class="btn btn-primary">Code</a>
-<a href="https://demo.fonts.ai4bharat.org" class="btn btn-primary">Demo</a>
+<a href="http://fonts.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="https://github.com/AI4Bharat/Fonts-for-Indian-Scripts" class="btn btn-primary btn-sm">Code</a>
+<a href="https://demo.fonts.ai4bharat.org" class="btn btn-primary btn-sm">Demo</a>
 
 <table style="border-collapse: inherit; border-spacing: 20px;">
   <tr><th>Members</th><th>Mentors</th></tr>
@@ -172,13 +172,13 @@ Generating fonts using A.I. for Indian Language-Scripts using style-transfer GAN
 
 {{</ faq >}}
 
-{{< faq "🖖🏼 Sign Language" >}}
+{{< faq "🖖🏼 Indo Sign Language" >}}
 
 Developing tools for recognizing and transcribing Indo Sign Language.
 
-<a href="http://sign-language.ai4bharat.org" class="btn btn-primary">Website</a>
-<a href="#" class="btn btn-primary">Code</a>
-<a href="https://dl.acm.org/doi/10.1145/3394171.3413528" class="btn btn-primary">Paper</a>
+<a href="http://sign-language.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="#" class="btn btn-primary btn-sm">Code</a>
+<a href="https://dl.acm.org/doi/10.1145/3394171.3413528" class="btn btn-primary btn-sm">Paper</a>
 
 <table style="border-collapse: inherit; border-spacing: 20px;">
   <tr><th>Members</th><th>Mentors</th></tr>
