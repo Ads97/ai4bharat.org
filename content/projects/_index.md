@@ -172,7 +172,7 @@ Generating fonts using A.I. for Indian Language-Scripts using style-transfer GAN
 
 {{</ faq >}}
 
-{{< faq "🖖🏼 Indo Sign Language" >}}
+{{< faq "🖖🏼 Indian Sign Language" >}}
 
 Developing tools for recognizing and transcribing Indo Sign Language.
 

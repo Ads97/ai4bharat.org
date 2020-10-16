@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Artificial Intelligence for Indian Railways</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Can we deploy Artificial Intelligence to learn from historical operations to make Indian Railways more efficient with time?">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.76.4" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+  
+  
+  <meta property="og:image" content="/images/blog/railways/Thumbnail.jpeg" />
+  
+  <meta property="og:title" content="Artificial Intelligence for Indian Railways" />
+<meta property="og:description" content="Can we deploy Artificial Intelligence to learn from historical operations to make Indian Railways more efficient with time?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/articles/railways/" />
+<meta property="article:published_time" content="2019-06-18T10:07:21+06:00" />
+<meta property="article:modified_time" content="2019-06-18T10:07:21+06:00" />
+
+  
+  
+  
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="/">
+        
+        <img width="200px" class="img-fluid" style="width: 5em;" src="/images/logo.png" alt="AI4Bharat"></a>
+        
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">Projects</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/articles">Articles</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/events">Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        
+        <a href="https://github.com/AI4Bharat" class="btn btn-sm btn-primary ml-3"><i class="ti-github"></i> GitHub</i></a>
+        
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+
+
+
+<section class="section pb-0">
+  <div class="container text-center">
+      <h1 class="display-3">Artificial Intelligence for Indian Railways</h1>
+      
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content"><p>Can we deploy Artificial Intelligence to learn from historical operations to make Indian Railways more efficient with time?</p>
+<p><img src="../../images/blog/railways/cover.jpg" alt="Cover Image"></p>
+<h3 id="abstract">Abstract</h3>
+<p>The growth in India’s population, combined with urbanisation and a higher demand for mobility, has increased the pressure on the country’s railway networks. The response has been to build more tracks, run more trains on the same networks, and to increase the number of coaches per train. While the ﬁrst solution - more infrastructure - has the potential to solve the problem, it comes with a huge capital cost. On the other hand, it should be possible to do more with the hardware we already have, if we can make the ‘software’ more eﬃcient. This includes greater information sharing, lower latency, and cleverer algorithms. Such improvements fall squarely within the ambit of AI. The goal of this article is to highlight the potential contributions of AI towards improvement of India’s railway system.</p>
+<h3 id="1-introduction">1. Introduction</h3>
+<p>The Indian Railway system is a government-owned entity, and is managed by a separate ministry. The network is the fourth largest railway network in the world by size, with nearly 70,000 km of tracks in April 2019 [42]. More than 20,000 passenger trains ply on the network (including long-distance and suburban routes), which itself consists of close to 7,500 stations. In addition, the railway network also handles more than 9,000 freight trains. The economic impact of this transportation system is enormous. In the ﬁscal year 2017-18, IR carried 8.26 billion passengers and transported 1.16 billion tonnes of freight, and generated a revenue of close to 2 trillion INR [41]. Interestingly, more than two-thirds of this revenue was generated through freight movement. Apart from the beneﬁts delivered to its users, it employed in excess of 1.3 million people in 2017 [41]. In summary, the country’s railway system is a gargantuan economic machine. And like any large machinery, it needs constant maintenance and repair. Furthermore, it is under increasing stress to deliver even greater value as the demand for cheap, eﬃcient transport grows year-on-year. One way of trying to meet the demand, is to increase railway infrastructure. This has been addressed by ongoing projects such as the Konkan Railway double-track expansion [18] and the Mumbai-Ahmedabad High Speed Corridor [57], expected to run the so-called ‘bullet train’. However, such projects (i) are highly expensive, (ii) carry very high ecological penalties, and (iii) will not guarantee economic beneﬁts in proportion to the investment. We can ﬁnd pointers towards the eﬀects from other such eﬀorts around the world. Despite a 27 billion dollar investment (equivalent to IR’s entire annual budget) in railways in the US in 2015, the American Institute of Civil Engineers assessed railway infrastructure and gave it a ‘B’ grade [2]. Instead, a complementary approach is to use automation in the form of artiﬁcial intelligence, machine learning, and autonomous control systems, to improve the eﬃciency and reliability of existing infrastructure. The goal is to choose the right intervention - whether physical (in the form of more infrastructure) or logical (in the form of algorithms) - based on quantitative economics, rather than pure intuition. The rest of this article highlights the problem areas that need to be addressed, the techniques that may act as good starting points, and the caveats for ensuring that future research is directed and usable in the real world, as well as being socially acceptable in the Indian context.</p>
+<hr>
+<h3 id="2-problems">2. Problems</h3>
+<p>Let us motivate the use of AI for managing railway operations, using a concrete example. The Kharagpur division of Indian Railways consists of approximately 2,000 kilometers of track with 150 stations and handles close to 300 trains a day [55]. The division is split into ﬁve parts, each controlled by a human dispatcher who allots individual track sections to every train. Decisions to reorder trains because of emergent delays are driven by several conﬂicting factors, including train priorities, downstream conﬂicts with other trains, freight loads, and passenger connections. It is diﬃcult for a human to process all of these objectives simultaneously, and to come up with a solution that is optimal for the network as a whole. An AI-driven ‘sense-analyzerespond’ system works well in such scenarios. The ‘sense’ aspect fuses a vast amount of data about the status of trains in the network, the ‘analyze’ aspect considers the implications of each available choice, and the ‘respond’ aspect allots various track resources to each train, taking into account physical capabilities and safety rules. The advantages of such an approach are:</p>
+<ul>
+<li>A single system can reduce the workload of several dispatchers</li>
+<li>It improves the quality of the solution (for example, the system can ﬁnd out what is happening in the entire Kharagpur division, as opposed to one small area)</li>
+<li>It is faster and more accurate than manual decision-making Listed below are a few research directions that would help realise such a system.</li>
+</ul>
+<p>Note that the problems are not limited to areas that have already attracted a large amount of interest, such as predicting delays and maximising scheduling eﬃciency. While these are certainly important research directions, there are many additional problems where AI can deliver tangible beneﬁt, and which have not yet been thoroughly addressed by the community.</p>
+<h4 id="21-predictive-analytics">2.1 Predictive Analytics</h4>
+<p>Forecasting is one of the ﬁrst applications that comes to mind when one thinks of AI applications, and this thinking carries into the railway context as well. However, the speciﬁc problem statements that fall under the broad classiﬁcation of ‘forecasting’, can be quite diverse.</p>
+<ol>
+<li>
+<p><strong>Prediction of train delays</strong> is an important application. Because of the severely constrained nature of railway networks (a small number of tracks, and large safety margins), secondary or knock-on delays form a large component of total network delays. Traditional delay prediction methods [48, 25, 32] focus on the stochastic nature of delays and use computationally intensive techniques to model its propagation. However, supervised learning or Bayesian networks could improve the accuracy and computational performance of these tools. Accurate delay predictions would not only help dispatchers (controllers) in downstream portions of the network, but would also improve the passenger experience by providing early updates regarding their journeys.</p>
+</li>
+<li>
+<p><strong>Predictive maintenance of linear infrastructure (tracks)</strong> is a time series forecasting problem, where historical data is available in the form of track geometry and defect measurements as a function of time and location. The measurements are taken by specially equipped trains that periodically travel through the network, measuring track undulations underneath the carriages. The goal is to sense developing faults and predict their ‘remaining life’ as accurately as possible. If the modelling is good enough, maintenance can be carried out before the faults become critical but not so frequently that the cost becomes prohibitive. A recent competition hosted by INFORMS [31] attracted solutions based on functional approximation and machine learning, but the performance achieved by the three winners leaves scope for improvement.</p>
+</li>
+<li>
+<p>Complementary to track defect modelling is <strong>predictive maintenance for rolling stock</strong> , where the goal is to model defects in the wheels of railway carriages. Relevant measurements are taken by detectors embedded under tracks, which measure the peak load exerted by railway carriages as they pass over the tracks. Similar to the track defects problem, INFORMS hosted a competition in 2017 [30] to predict developing defects in railcars. Once again, the time series methods used by the winning teams included some machine learning algorithms, but the resulting performance could be better.</p>
+</li>
+</ol>
+<p>Several other problem statements may be deﬁned under the umbrella of forecasting algorithms for railway systems. The key issue is not the unavailability of data, in most cases and including the Indian context. Rather, it is the requirement to combine a deep understanding of the problem domain (the physics of railway carriages, the operational operational rules that drive delay propagation) with an equally deep understanding of the mathematical structure of the forecasting algorithms. Deep learning approaches, including time series methods such as LSTM, can certainly be applied to such problems. However, one needs to combine the algorithms with domain knowledge in order to design the right features.</p>
+<h4 id="22-scheduling">2.2 Scheduling</h4>
+<p>Scheduling is perhaps the most intensely studied problem in railway-related literature [56]. Broadly speaking, one can divide this into ﬁve sub-problems. Each of these contain diﬀerent challenges, as described below. Where possible, the speciﬁc methods and constraints applicable to the Indian context are also mentioned. Let us ﬁrst describe the nature of the railway system in this country. The Indian railway network is designed to consist of long ‘lines’ (a string of stations), which connect with each other at ‘junction’ stations (see Figure 1). Each station is composed of one or more parallel tracks, which may be associated with a ﬁxed direction of traﬃc, or they could be bidirectional. Similarly, there are one or more tracks between each neighbouring pair of stations. These tracks are typically referred to as ‘sections’, in order to diﬀerentiate them from tracks actually at a station. The section tracks can also be unidirectional (ﬁxed direction of train movement) or bidirectional. The Indian network typically consists of sections with one or two tracks. A small number of busy lines contain three tracks, and this number can rise further when approaching a large junction station. Most tracks are shared by passenger and freight trains, sometimes with separate periods of the day reserved for each type of movement. We can now describe the scheduling problems for this context.</p>
+<figure style="text-align: center">
+  <img src="../../images/blog/railways/figure1.png" alt="Figure 1" style="width:100%;">
+  <figcaption>Figure 1: The line and junction topology of railway networks in India. On the left is the Mumbai suburban network, on the right is the Indian long-distance network. The same idea applies to most scales of view.</figcaption>
+</figure>
+<ol>
+<li>
+<p>Timetabling refers to an oﬄine planning problem for a railway network. Given a set of trains and their origins and destinations (with or without a ﬁxed route), the goal is to assign track resources for each train for a ﬁxed time period, such that they all complete their journeys without conﬂicts. A conﬂict-free timetable implies either that a track section between two stations is occupied by at most one train at a time (referred to as absolute block signalling), or every piece of track between two signals is occupied by at most one train at a time (called automatic block signalling). All signalling rules assume that tracks at stations are occupied by at most one train at a time. The railway problem has been shown in literature to be a ‘blocking’ version of the Job Shop Scheduling Problem (JSSP) [15, 37], where the job (train) must wait in the current resource (track) until the next resource is freed (there is no buﬀer for storing jobs between two resources). This version of the JSSP is also NP complete [7], with the result that exact solutions require an exponential amount of time for computation. However, this is typically a one-time activity without a speciﬁed time limit. Therefore, literature has been able to address reasonably small problems (or ones with inherently helpful properties such as periodicity) using exact methods such as [28, 47, 22, 45]. Even with unlimited time, it is frequently infeasible to solve the timetabling problem for large instances, resulting in practical algorithms being limited to heuristics [29, 8, 40, 15, 52, 33]. Recent surveys of algorithms for railway scheduling [22, 56] cover exact approaches, simulation models, constraint propagation, alternative graphs, heuristics, and expert systems, but approaches with learning or adaptive capabilities are only recently starting to appear in literature [51, 34]. The challenges posed by this problem for AI-driven methods are covered in Section 3. Note that the concept of optimality in this problem can take various forms. One could focus on (i) time duration from ﬁrst event to last event (makespan), (ii) total or average running time of trains, (iii) priority-weighted running time of trains, (iv) robustness of the timetable to deviations, and combinations thereof. The last concept refers to the addition of ‘slack’ times in the timetable, which is excess time allotted to a movement beyond the expected minimum.</p>
+</li>
+<li>
+<p>Rescheduling is the online counterpart of the timetabling problem [44], where the goal is to recover from a disruption to the timetable, caused by delays or faults. The mathematical diﬀerences are found in two aspects. First, the goal is to return to the original timetable using built-in slack times, instead of deﬁning the timetable itself. This implies that the objective function would focus on minimizing delays to trains with respect to the timetable, or the time required for deviations to the smoothed out. Second, the online nature of the problem implies that there is very limited time available to compute solutions, and that sub-optimal but reasonably eﬃcient solutions are acceptable. The latter aspect has driven researchers to use heuristics (modiﬁed from their timetabling versions) to solve the rescheduling problem [29, 8, 40, 15, 52, 33]. AI-driven methods are also applicable [51, 34]. In fact, techniques such as reinforcement learning [54] are highly attractive because they can be trained oﬄine to achieve high degrees of quality and speciﬁcity to a network, while being very eﬃcient at computing online solutions. A very interesting oﬀshoot of the rescheduling problem is the ever-present risk of deadlock in the solution [39, 33]. Deadlocks arise when two or more trains are unable to make any forward moves, because their next resources are blocked by each other. Since trains cannot move backwards (moves cannot be undone) in the case of rescheduling, it becomes critical to detect and avoid deadlocks well in advance. Some leeway is available in the timetabling version of the problem, where the class of travel advance heuristics [52, 33] have built-in ‘backtrack’ logic if they run out of feasible forward moves. In rescheduling - where trains are already physically moving - there is no minimum deviation from the timetable necessary to run the risk of deadlock. A useful contribution of AI-driven techniques could be as an embedded piece of logic in existing rescheduling algorithms, speciﬁcally focused on detecting and preventing deadlocks.</p>
+</li>
+<li>
+<p>Freight scheduling is a problem peculiar to the Indian context, for two reasons. First, unlike countries such as the United States where freight constitutes a majority of traﬃc on the railroad, the majority of traﬃc in India is composed of passenger trains. Second, a fair proportion of freight trains do not operate on ﬁxed schedules, but are instead run as and when the demand is realised [26]. Where possible, time windows are left in the passenger train timetables in order to accommodate freight traﬃc. These windows need to be fairly wide, because freight trains typically run much slower than passenger trains. They can also be held for long duration (a few hours) at a speciﬁc spot during peak passenger times. The mathematical characteristic of the freight scheduling problem is thus to ﬁnd a feasible path from origin to destination, through previously ﬁxed passenger timetables [26, 6]. This could include a choice of route, wherever applicable. Methodologies in literature focus mainly on various ﬂavours of linear programming [6], heuristics [26], and meta-heuristics [27]. There appear to be no formal AI-driven methods in the freight scheduling literature.</p>
+</li>
+<li>
+<p>Crew management is the problem of ensuring that the operating personnel on a train are able to adhere to the timetable or schedule, without violating any labour rules [10, 44]. The problem is actually composed of two sub-problems: that of crew rostering (long-term distribution of personnel at various nodes of the network) and crew scheduling (a short-term planning problem). The rules that apply to both can be complex combinations of capacity, crew preferences, rest periods, overnight stays, and other factors. Nevertheless, crew management is a critical part of railway scheduling. Without this aspect being satisﬁed, one cannot hope to put any timetables into practice. Approaches to solve this problem again tend to focus on linear programming [10] and heuristics [1]. While eﬀective within the bounds of crew scheduling only, these approaches are very diﬃcult to combine into an integrated framework with train scheduling. This is where an AI-driven adaptive approach would be more eﬀective.</p>
+</li>
+<li>
+<p>Rake linking or vehicle rotation planning is the complementary problem to that of crew management, where the goal is to ensure that suﬃcient engines and carriages are available to operate a planned train journey [5, 4, 21]. A ‘rake’ is a set of carriages connected to form a train (except for the engine or ‘loco’). The goal of this problem is to ensure that each individual carriage is scheduled to circulate through the network in a feasible manner, including down-times for maintenance checks. This problem has been modelled as a mixed-integer linear programming problem, and solved using arc generation [5] and periodic event scheduling [21]. The prior work appears to be usable for a small number of trains, especially in a periodic timetable setting. However, solving the rake linking problem for a large network, in conjunction with other scheduling goals, appears to be a task for the future.</p>
+</li>
+</ol>
+<p>The reader will have noted that while problems 1 and 2 listed above have received the bulk of attention from researchers, the subsequent three constraints can render the best of solutions useless in operation. Furthermore, very little research has so far looked at using AI for solving the issues. The key challenges to the application of AI can be summarized as follows. First, unlike board games, the ‘moves’ in railway scheduling can happen simultaneously for multiple trains, without explicit coordination. Second, the timing of a move is as important as the move itself. Third, unlike autonomous driving, the success or failure of railway scheduling is measured by the collective fate of all the trains involved, so train delays cannot be greedily minimised. Fourth, railway scheduling algorithms frequently run the risk of deadlock, where no forward moves are possible for some trains. Working around these challenges and coming up with approaches that simultaneously address more than one of the problems listed above, are fertile areas of future research.</p>
+<h4 id="23-decision-support-in-train-operation">2.3 Decision Support In Train Operation</h4>
+<p>Going beyond the high-level decision-making plane of scheduling problems, is the low-level implementation of the decisions. These relate to actions taken by the section/station controllers (dispatchers), who must plan the microscopic movement of trains. Timetables and schedules provide a high-level plan of train movement, to the level of times of arrival and departure. However, they do not specify tracks to be occupied, time required for switching tracks, and signalling requirements. In practice, the operational times can depend strongly on these allocations. For example, keeping a fast main line train on the main track allows it to pass through a station without halting, whereas changing to a diﬀerent track requires it to slow down signiﬁcantly. In extreme cases, macroscopic schedules can be infeasible when considered at microscopic levels. While one can develop iterative optimization approaches [19] or graph-based models [9] to compute timetables that are feasible even at the low-level, real-time decision support is typically only possible using heuristics [13]. Given the sensitivity of overall network delays to small local delays [12, 32], it is desirable to design microscopic scheduling heuristics that are as optimal as possible. AI (for example, reinforcement learning) oﬀers a way of training algorithms to react to disturbances quickly, and yet with near-optimal solutions.</p>
+<p>One of the key components of a real-time microscopic scheduling strategy is conﬂict resolution [14]. Most railways do not use automated algorithms for this function, instead relying on the training and experience of controllers (dispatchers) to take decisions [50]. The small turnaround time and large amount of contextual information makes this an attractive problem for AI applications. Supervised learning has been used to mimic conﬂict resolution by controllers [20] before, at a simple level. There is potential for making the decision-making more sophisticated, and in fact to go beyond imitation learning and into regimes where the AI discovers better policies than expert humans. Furthermore, conﬂict resolution can be achieved not just through hard signalling (red or green), but by more nuanced approaches such as train speed management [16]. More details about this problem follow.</p>
+<p>From the perspective of the train’s crew, the total energy consumption of the train depends strongly on the speed proﬁle used between stations. There are studies that use RL or dynamic programming to compute energy eﬃcient speed proﬁles for single trains [38, 59]. These studies are attuned towards trains with autonomous control systems, which are available in a few light rail projects in India. However, for broader applications in the country, one needs to develop AI techniques that (i) can interact intuitive with human train drivers, and (ii) can be feasibly implemented by humans in the loop. The former requirement implies a way of interacting with humans without increasing their cognitive load, especially in terms of safety-critical tasks such as watching for obstacles on the tracks. The latter requirement implies that the decisions (such as speed or power setting) is updated in sparse temporal steps, and is robust to small errors.</p>
+<h4 id="24-safety-and-security">2.4 Safety And Security</h4>
+<p>Of all the problem areas relevant to railways in India, safety and security is possibility the closest to existing mainstream AI applications. These include image and video processing, and human-computer interaction. The problems listed below relate to real-time applications only; oﬄine applications such as predictive maintenance have been covered earlier.</p>
+<ol>
+<li>
+<p><strong>Physical safety of infrastructure and rolling stock</strong> is a critical problem, especially in India where tracks are frequently encroached upon by people, animals, and vehicles. Given the low level of physical security for infrastructure, software-based solutions can bring value to the railway network [23]. Examples include (i) cameras at railway crossing using autonomous correlation of train movement with the incoming to warn train drivers [58], (ii) heads-up displays in trains to highlight obstacles in low-visibility conditions [17], etc. The list of applications is not limited to vision-based systems only [3]. The sound of train movement and its propagation/reﬂection along the railway track oﬀers a way of detecting anomalies using auditory signals. There is also work on inspection of civil structures such as railway bridges using drones (unmanned aerial vehicles) [24].</p>
+</li>
+<li>
+<p><strong>Passenger safety</strong> has some special requirements in the Indian railway context, because of the large distances covered by trains. Accurately locating passengers in the event of an emergency is critical. The ubiquitous nature of smart phones presents an opportunity to provide more accurate help in such situations. Smartphone applications could be used to replace emergency chains on trains; this would not only help passengers with restricted movement, but also stop rogue chain pulling incidents. Other sensors, such as RFID or QR codes, could be used for access to coaches and compartments, ensuring only legitimate passengers are able to board trains. Safety-driven applications such as those developed by metro operators [36, 43] can be leveraged on a nation-wide basis as a starting point.</p>
+</li>
+<li>
+<p>One of the most overlooked aspects of application development in the AI world is that of <strong>cybersecurity</strong> . This is a critical vulnerability for railway operators [11, 53], especially in countries such as India with vast networks, technologically underexposed customers, and lax law and order. The author is not knowledgeable in this area; however, there appears to be a case for using AI in cybersecurity applications for critical infrastructure.</p>
+</li>
+</ol>
+<h4 id="25-passenger-experience">2.5 Passenger Experience</h4>
+<p>Finally, an application area with a high potential for AI impact is that of the passenger experience. There are several pain points which can be addressed, and some of these are listed below. The key is to recognise that the solutions are limited only by one’s imagination in this context. Unlike in the preceding cases, the barriers to entry - development cost, safety assessment, return on investment - are much smaller here. Several of the applications described below do not need complex AI solutions; however, the challenge is in building reliable and scalable solutions that can be disseminated quickly among the population.</p>
+<ol>
+<li>
+<p>Accurate prediction of railway delays, assuming that real-time tracking of trains is already available in most parts of India.</p>
+</li>
+<li>
+<p>Provision of alerts to onboard passengers regarding important events and imminent arrival at destinations, based on the purchased tickets.</p>
+</li>
+<li>
+<p>More eﬃcient ticket veriﬁcation procedures, with quick human intervention only in the case of disputes.</p>
+</li>
+<li>
+<p>Greater availability of safe food and drink, and waste disposal facilities.</p>
+</li>
+<li>
+<p>Real-time washroom status availability.</p>
+</li>
+</ol>
+<hr>
+<h3 id="3-caveats">3. Caveats</h3>
+<p>Many of the problems described in this document have already been addressed by researchers, to a greater or lesser extent. The techniques used include both AI and traditional approaches. The principal diﬀerence between academic studies and research that can generate true social impact, is ensuring that the technologies can be used in real life. A number of points must be considered when judging potential methodologies from this perspective.</p>
+<ol>
+<li>
+<p>The techniques developed must be usable across problem instances ( <strong>transfer learning</strong> ), without extensive retraining. To take a concrete example, a scheduling algorithm developed for one portion of the railway network must be usable (with the same weights, biases, or other parameters) in any other portion of the railway network. If each portion requires extensive retraining, the usability potential drastically reduces. Furthermore, training the algorithms typically requires hands-on involvement of a data scientist, which may not be desirable.</p>
+</li>
+<li>
+<p>A corollary of the transfer learning requirement is the ability to handle instances of <strong>variable and arbitrarily large scales</strong> . The variable scale issue arises from the fact that not every problem instance in the real world (for example, a piece of the railway network) contains the same number of inputs and decisions. Many algorithms under the AI umbrella (for example, deep learning) handle only a ﬁxed input-output size. The discrepancy between raw methodology and domain constraints can be met by a careful design of the state and action spaces [34], but this requires time and eﬀort.</p>
+</li>
+<li>
+<p>A third key requirement for acceptability in the real world, is that the solutions (whether forecasts or decisions) must be <strong>explainable</strong> . Black box approaches are acceptable (perhaps even desirable) when planning strategies for games, but are not viable for safety-critical industrial applications. Alternatives to black box algorithms include human-readable machine learning approaches such as decision trees, or neural networks with small input-output sizes. Outputs produced by the former can be easily traced back to source, while the latter methods can be probed using sensitivity analyses.</p>
+</li>
+<li>
+<p>Finally, any solutions developed for the real world need to <strong>adhere to operating rules, procedures, and constraints</strong> . This requirements has many nuances. For example, the data requirements for training any proposed methodologies need to be sourced from real-world systems. Consequently, they must include measurements that are actually available, and must also work with realistic levels of measurement noise. Additionally, the communication and connectivity requirements must be feasible in terms of computational hardware capabilities, transmission latency, and security protocols.</p>
+</li>
+</ol>
+<hr>
+<h3 id="4-an-open-challenge-for-interested-parties">4. An open challenge for interested parties</h3>
+<p>To summarise the points made in this document, it is important to note the nature of the technical challenges within each problem area. Several of these areas are mathematically challenging, especially the ones related to predictive maintenance and real-time scheduling. Others have equivalents in related ﬁelds, such as the problem areas pertaining to safety and security. The common theme among all the problems is thus not the mathematical complexity of individual problems; it is the <strong>challenge of integrating the AI-based solutions into a seamless framework</strong> . This is expostulated in the concluding paragraphs below.</p>
+<p><strong><u>Integrated macroscopic and microscopic scheduling</u></strong> :</p>
+<p>The broadest impact of AI on railways in India is probably achievable by developing a methodology that</p>
+<p>(i) can ensure high-level eﬃciency of operating schedules<br>
+(ii) while ensuring that the schedules can be implemented in reality, and<br>
+(iii) that can be modiﬁed in real-time when circumstances change.</p>
+<p>If we consider possible approaches to truly achieving this vision, we realise that it integrates several of the problem areas listed above. Approaches using traditional methods have been implemented before [35], but AI oﬀers far more capability in terms of adaptation and ﬂexibility. Timetabling and scheduling is an obvious component, but so is rake linking and crew management. Microscopic scheduling and conﬂict resolution are requirements for low-level feasibility, while external disturbances can be introduced by predictive maintenance and safety monitoring systems.</p>
+<p>What kind of data is available for achieving this vision? The Indian Railway network already runs on a SCADA system, so a vast amount of operational data is available for modelling and training purposes. Digitised versions of railway infrastructure should also be readily available, and the same argument can be made for rake information and crew rosters. While sensing for predictive maintenance of the tracks or railcars may not be available in India, the physics of these problems are invariant with geography. Therefore, one can readily use data from other countries for training these models.</p>
+<p>The key technical challenge would be in developing a framework where researchers can start with several individual problems independently, and then integrate them eﬀectively. Hierarchical or more generic multiagent architectures have been shown to be eﬀective in handling such intentions, and these could be leveraged from the algorithmic standpoint. A complementary need is to make the various systems talk to each other eﬀectively; this is where expertise in software/hardware architectures and system integration is required. Architectures such as the open-source framework railML [49] are possible starting points for data interfaces, while simulators such as OpenTrack [46] are frequently used to test new ideas in scheduling research. However, there isn’t a single worldwide standard for such applications, and Indian Railways in particular tends to use its own protocols. Clearly, such a large goal cannot be achieved by a small group of individuals. The hope is that a large section of researchers, industry experts, and administrators together will mobilise - with the right incentives for each - to work towards it.</p>
+<hr>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<table style="width:50%; margin-right:50%;">
+  <tr>
+    <td align="center" >
+      <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEfA2EJXf7O2g/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=1wAe8_yA4i_H9HU5N1o15Bs9YaBoLTqtleo-CVc8U1I" width="75px;" class="rounded-circle" style="margin-bottom: 0;"/>
+      <br/><b>Author</b>
+    </td>
+    <td align="center" style="vertical-align: middle;"> <h4>
+      Harshad Khadilkar
+      <br/>
+      Scientist, TCS Innovation Labs
+      <br/>
+      <a href="https://in.linkedin.com/in/harshad-khadilkar-80609959" style="color: orange">LinkedIn</a>
+    </h4></td>
+  </tr>
+</table>
+<p>∗ The author is a scientist at Tata Consultancy Services, with experience in improving the eﬃciency of industrial operations</p>
+<hr>
+<h3 id="references">References</h3>
+<p>[1] E Abbink, M Fischetti, L Kroon, G Timmer, and M Vromans. Reinventing crew scheduling at netherlands railways. Interfaces, 35(5):393–401, 2005.</p>
+<p>[2] ASCE. 2017 Infrastructure Report Card. <a href="https://www.infrastructurereportcard.org/wpcontent/uploads/2017/01/Rail-Final.pdf">https://www.infrastructurereportcard.org/wpcontent/uploads/2017/01/Rail-Final.pdf</a>.</p>
+<p>[3] G Bocchetti, F Flammini, C Pragliola, and A Pappalardo. Dependable integrated surveillance systems for the physical security of metro railways. In 2009 Third ACM/IEEE International Conference on Distributed Smart Cameras (ICDSC), pages 1–7. IEEE, 2009.</p>
+<p>[4] R Bornd¨orfer, M Reuther, T Schlechte, K Waas, and S Weider. Integrated optimization of rolling stock rotations for intercity railways. Transportation Science, 50(3):863–877, 2015.</p>
+<p>[5] R Bornd¨orfer, M Reuther, T Schlechte, and S Weider. A hypergraph model for railway vehicle rotation planning. In 11th Workshop on Algorithmic Approaches for Transportation Modelling, Optimization, and Systems. Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik, 2011.</p>
+<p>[6] V Cacchiani, A Caprara, and P Toth. Scheduling extra freight trains on railway networks. Transportation Research Part B: Methodological, 44(2):215–231, 2010.</p>
+<p>[7] X Cai and C Goh. A fast heuristic for the train scheduling problem. Computers &amp; Operations Research, 21(5):499–510, 1994.</p>
+<p>[8] X Cai, C Goh, and A Mees. Greedy heuristics for rapid scheduling of trains on a single track. IIE transactions, 30(5):481–493, 1998.</p>
+<p>[9] G Caimi. Algorithmic decision suport for train scheduling in a large and highly utilised railway network. ETH Zurich, 2009.</p>
+<p>[10] A Caprara, M Fischetti, P Toth, D Vigo, and P Guida. Algorithms for railway crew management. Mathematical programming, 79(1-3):125–141, 1997.</p>
+<p>[11] B Chen, C Schmittner, Z Ma, W Temple, X Dong, D Jones, and W Sanders. Security analysis of urban railway systems: the need for a cyber-physical perspective. In International Conference on Computer Safety, Reliability, and Security, pages 277–290. Springer, 2014.</p>
+<p>[12] F Corman, A DAriano, and I Hansen. Evaluating disturbance robustness of railway schedules. Journal of Intelligent Transportation Systems, 18(1):106–120, 2014.</p>
+<p>[13] F Corman, A DAriano, A Marra, D Pacciarelli, and M Sam`a. Integrating train scheduling and delay management in real-time railway traﬃc control. Transportation Research Part E: Logistics and Transportation Review, 105:213–239, 2017.</p>
+<p>[14] F Corman, A DAriano, D Pacciarelli, and M Pranzo. Bi-objective conﬂict detection and resolution in railway traﬃc management. Transportation Research Part C: Emerging Technologies, 20(1):79–94, 2012.</p>
+<p>[15] A D’Ariano, D Pacciarelli, and M Pranzo. A branch and bound algorithm for scheduling trains in a railway network. European Journal of Operational Research, 183(2):643–657, 2007.</p>
+<p>[16] A. D’Ariano, M. Pranzo, and I. A. Hansen. Conﬂict resolution and train speed coordination for solving real-time timetable perturbations. IEEE Transactions on Intelligent Transportation Systems, 8(2):208– 222, June 2007.</p>
+<p>[17] K Davies, P Thorley, M Thomas, and H Gibson. Feasibility of head up displays in driving cabs. Rail Human Factors around the World: Impacts on and of People for Successful Rail Operations, 465, 2012.</p>
+<p>[18] DNA. Konkan Railway embarks on Rs 5,000-cr expansion plan. <a href="https://www.dnaindia.com/india/report-dna-exclusive-konkan-railway-embarks-on-rs-5000-crexpansion-plan-2707961">https://www.dnaindia.com/india/report-dna-exclusive-konkan-railway-embarks-on-rs-5000-crexpansion-plan-2707961</a>.</p>
+<p>[19] T Dollevoet, F Corman, A DAriano, and D Huisman. An iterative optimization framework for delay management and train scheduling. Flexible Services and Manufacturing Journal, 26(4):490–515, 2014.</p>
+<p>[20] S Dundar and I Sahin. Train re-scheduling with genetic algorithms and artiﬁcial neural networks for single-track railways. Transportation Research Part C, 27:1–15, 2013.</p>
+<p>[21] S Dutta, N Rangaraj, M Belur, S Dangayach, and K Singh. Construction of periodic timetables on a suburban rail network-case study from mumbai. In RailLille 20177th International Conference on Railway Operations Modelling and Analysis, 2017.</p>
+<p>[22] W Fang, S Yang, and X Yao. A survey on problem models and solution approaches to rescheduling in railway networks. IEEE Trans. on Intelligent Transportation Systems, 16(6):2997–3016, 2015.</p>
+<p>[23] F Flammini, A Gaglione, F Ottello, A Pappalardo, C Pragliola, and A Tedesco. Towards wireless sensor networks for railway infrastructure monitoring. In Electrical Systems for Aircraft, Railway and Ship Propulsion, pages 1–6. IEEE, 2010.</p>
+<p>[24] F Flammini, C Pragliola, and G Smarra. Railway infrastructure monitoring by drones. In 2016 International Conference on Electrical Systems for Aircraft, Railway, Ship Propulsion and Road Vehicles &amp; International Transportation Electriﬁcation Conference (ESARS-ITEC), pages 1–6. IEEE, 2016.</p>
+<p>[25] O Frank. Two-way traﬃc on a single line of railway. Operations Research, 14(5):801–811, 1966.</p>
+<p>[26] T Godwin, R Gopalan, and T Narendran. A heuristic for routing and scheduling freight trains in a passenger rail network. International Journal of Logistics Systems and Management, 3(1):101–133, 2007.</p>
+<p>[27] M Gorman. An application of genetic and tabu searches to the freight railroad operating plan problem. Annals of operations research, 78:51–69, 1998.</p>
+<p>[28] A Higgins, E Kozan, and L Ferreira. Optimal scheduling of trains on a single line track. Transportation Research Part B, 30(2):147–161, 1996.</p>
+<p>[29] A Higgins, E Kozan, and L Ferreira. Heuristic techniques for single line train scheduling. Journal of Heuristics, 3(1):43–62, 1997.</p>
+<p>[30] INFORMS Railway Applications Section. Empty-to-load peak kips prediction. <a href="https://connect.informs.org/railway-applications/new-item3/problem-solving-competition681/newitem11">https://connect.informs.org/railway-applications/new-item3/problem-solving-competition681/newitem11</a>.</p>
+<p>[31] INFORMS Railway Applications Section. Track geometry analytics. <a href="https://connect.informs.org/railway-applications/new-item3/problem-solving-competition681/newitem9">https://connect.informs.org/railway-applications/new-item3/problem-solving-competition681/newitem9</a>.</p>
+<p>[32] H Khadilkar. Data-enabled stochastic modeling for evaluating schedule robustness of railway networks. Transportation Science, 51(4):1161–1176, 2016.</p>
+<p>[33] H Khadilkar. Scheduling of vehicle movement in resource-constrained transportation networks using a capacity-aware heuristic. In American Control Conference, Seattle, WA, May 2017.</p>
+<p>[34] H Khadilkar. A scalable reinforcement learning algorithm for scheduling railway lines. IEEE Transactions on Intelligent Transportation Systems, 20(2):727–736, February 2019.</p>
+<p>[35] D Kraay and P Harker. Real-time scheduling of freight railroads. Transportation Research Part B: Methodological, 29(3):213–229, 1995.</p>
+<p>[36] LA Metro. Transit Watch LA. <a href="https://www.transitwatchla.org/app">https://www.transitwatchla.org/app</a>.</p>
+<p>[37] S Liu and E Kozan. Scheduling trains as a blocking parallel-machine job shop scheduling problem. Computers &amp; Operations Research, 36(10):2840–2852, 2009.</p>
+<p>[38] S Lu, S Hillmansen, T Ho, and C Roberts. Single-train trajectory optimization. IEEE Trans. on Intelligent Transportation Systems, 14(2):743–750, 2013.</p>
+<p>[39] S Mackenzie. Train scheduling on long haul railway corridors. PhD thesis, University of South Australia, 2010.</p>
+<p>[40] J Medanic and M Dorfman. Eﬃcient scheduling of traﬃc on a railway line. Journal of Optimization theory and applications, 115(3):587–602, 2002.</p>
+<p>[41] Ministry of Railway. Indian Railways Budget Document 2018-19. Retrieved 22 February 2018.</p>
+<p>[42] Ministry of Railway. Indian Railways Statistical Publications 2016-17: Statistical summary - Indian Railways. Retrieved 22 February 2018.</p>
+<p>[43] Mumbai Metro. Metro SecuCare Application. <a href="https://www.reliancemumbaimetro.com/web/reliancemumbai-metro/security">https://www.reliancemumbaimetro.com/web/reliancemumbai-metro/security</a>.</p>
+<p>[44] S Narayanaswami and N Rangaraj. Scheduling and rescheduling of railway operations: A review and expository analysis. Technology Operation Management, 2(2):102–122, 2011.</p>
+<p>[45] H Niu, X Zhou, and R Gao. Train scheduling for minimizing passenger waiting time with time-dependent demand and skip-stop patterns: Nonlinear integer programming models with linear constraints. Transportation Research Part B, 76:117–135, 2015.</p>
+<p>[46] OpenTrack. Railway Simulation. <a href="http://www.opentrack.at/mobile/opentrack">http://www.opentrack.at/mobile/opentrack</a> e/opentrack e.html.</p>
+<p>[47] P Pellegrini, G Marli`ere, and J Rodriguez. Optimal train routing and scheduling for managing traﬃc perturbations in complex junctions. Transportation Research Part B, 59:58–80, 2014.</p>
+<p>[48] E Petersen. Over-the-road transit time for a single track railway. Transportation Science, 8(1):65–74, 1974.</p>
+<p>[49] railML. International Industry standard for railway data exchange. <a href="https://www.railml.org/en/home.html">https://www.railml.org/en/home.html</a>. [50] ˙I S¸ahin. Railway traﬃc control and train scheduling based oninter-train conﬂict management. Transportation Research Part B: Methodological, 33(7):511–534, 1999. [51] D ˇSemrov, R Marsetiˇc, M ˇZura, L Todorovski, and A Srdic. Reinforcement learning approach for train rescheduling on a single-track railway. Transportation Research Part B, 86:250–267, 2016.</p>
+<p>[52] S Sinha, S Salsingikar, and S SenGupta. An iterative bi-level hierarchical approach for train scheduling. Journal of Rail Transport Planning and Management, 6:183–199, 2016.</p>
+<p>[53] S Soderi, M H¨am¨al¨ainen, and J Iinatti. Cybersecurity considerations for communication based train control. Alstom Signalling Solutions, Florence, 2016.</p>
+<p>[54] R Sutton and A Barto. Reinforcement learning: An introduction. MIT Press, 2 edition, 2012.</p>
+<p>[55] Total Train info. Kharagpur Railway Division. <a href="http://www.totaltraininfo.com/division/kharagpur.php">http://www.totaltraininfo.com/division/kharagpur.php</a>.</p>
+<p>[56] C Turner, A Tiwari, A Starr, and K Blacktop. A review of key planning and scheduling in the rail industry in Europe and UK. Proceedings of the Institution of Mechanical Engineers, 230(3):984–998, 2016.</p>
+<p>[57] Wikipedia. Mumbai-Ahmedabad High Speed Rail Corridor. <a href="https://en.wikipedia.org/wiki/MumbaiAhmedabad">https://en.wikipedia.org/wiki/MumbaiAhmedabad</a> high-speed rail corridor.</p>
+<p>[58] J Xue, J Cheng, L Wang, and X Gao. Visual monitoring-based railway grade crossing surveillance system. In 2008 Congress on Image and Signal Processing, volume 2, pages 427–431. IEEE, 2008.</p>
+<p>[59] J Yin, D Chen, and L Li. Intelligent train operation algorithms for subway by expert system and reinforcement learning. IEEE Trans. on Intelligent Transportation Systems, 15(6):2561–2571, 2014.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        <h3 class="mb-4">Organization</h3>
+        <ul class="list-unstyled footer-list">
+          
+          <li><a href="/">About Us</a></li>
+          
+          <li><a href="/">Quick Start</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <h3 class="mb-4">Projects</h3>
+        <ul class="list-unstyled footer-list">
+          
+          <li><a href="/">Features</a></li>
+          
+          <li><a href="/">Platform</a></li>
+          
+          <li><a href="/pricing">Pricing</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <h3 class="mb-4">Support</h3>
+        <ul class="list-unstyled footer-list">
+          
+          <li><a href="/faq">FAQ</a></li>
+          
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          
+          <li><a href="/terms-conditions">Terms &amp; Conditions</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href="/"><img width="200px"  class="img-fluid" src="/images/logo.png" alt="AI4Bharat"></a>
+        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.</p>
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design By <a href="https://themefisher.com/">Themefisher</a> Develop By <a href="https://gethugothemes.com/">Gethugothemes</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script></body>
+
+</html>

@@ -56,7 +56,7 @@ projects:
       image : "images/digital-india.jpg"
       content : "Generating fonts using A.I. for Indic scripts."
       
-    - name : "Indo Sign Language"
+    - name : "Indian Sign Language"
       image : "images/smart-cities.jpg"
       content : "Developing tools for recognizing and transcribing Indo Sign Language."
     

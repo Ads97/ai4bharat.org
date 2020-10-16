@@ -1,64 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latest News on AI4Bharat</title>
+    <title>Commentary Articles on AI4Bharat</title>
     <link>/articles/</link>
-    <description>Recent content in Latest News on AI4Bharat</description>
+    <description>Recent content in Commentary Articles on AI4Bharat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Apr 2020 10:07:21 +0600</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jun 2019 10:07:21 +0600</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>/articles/post-4/</link>
-      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      <title>The Case for AI4Bharat</title>
+      <link>/articles/case/</link>
+      <pubDate>Thu, 27 Jun 2019 10:07:21 +0600</pubDate>
       
-      <guid>/articles/post-4/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>/articles/case/</guid>
+      <description>FOUNDERS:  AI4Bharat is a voluntary community founded by us - Mitesh Khapra and Pratyush Kumar.</description>
     </item>
     
     <item>
-      <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>/articles/post-5/</link>
-      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      <title>Our Process for Collaborating on AI Projects</title>
+      <link>/articles/ai-process/</link>
+      <pubDate>Wed, 26 Jun 2019 10:07:21 +0600</pubDate>
       
-      <guid>/articles/post-5/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>/articles/ai-process/</guid>
+      <description>An A.I. process with high adherence is as an essential component to be successful in our mission of collaborative innovation at scale.</description>
     </item>
     
     <item>
-      <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>/articles/post-6/</link>
-      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      <title>Artificial Intelligence for Indian Railways</title>
+      <link>/articles/railways/</link>
+      <pubDate>Tue, 18 Jun 2019 10:07:21 +0600</pubDate>
       
-      <guid>/articles/post-6/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>/articles/railways/</guid>
+      <description>Can we deploy Artificial Intelligence to learn from historical operations to make Indian Railways more efficient with time?</description>
     </item>
     
     <item>
-      <title>Pump-up the team morale and celebrate the excellence</title>
-      <link>/articles/post-2/</link>
-      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      <title>Between Humans and Machines: Explainable Artificial Intelligence</title>
+      <link>/articles/explainable-ai/</link>
+      <pubDate>Mon, 17 Jun 2019 10:07:21 +0600</pubDate>
       
-      <guid>/articles/post-2/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>/articles/explainable-ai/</guid>
+      <description>We need explainable Artificial Intelligence to avoid risks from malfunctioning systems.
+ The recent crash of the Ethiopian Airlines aeroplane on 10th March 2019 in which all 157 people aboard died, raises some fundamental questions regarding technology.</description>
+    </item>
+    
+    <item>
+      <title>Overview of AI in Indian Healthcare</title>
+      <link>/articles/overview-of-ai-in-indian-healthcare/</link>
+      <pubDate>Sun, 16 Jun 2019 10:07:21 +0600</pubDate>
+      
+      <guid>/articles/overview-of-ai-in-indian-healthcare/</guid>
+      <description>Artificial Intelligence (AI) has emerged as a rapidly evolving technology and has seen widespread acceptance in many fields.</description>
     </item>
     
     <item>
       <title>Remote Sensing with Satellite Imagery with Deep Learning</title>
-      <link>/articles/post-1/</link>
-      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      <link>/articles/satellite/</link>
+      <pubDate>Tue, 11 Jun 2019 10:07:17 +0600</pubDate>
       
-      <guid>/articles/post-1/</guid>
-      <description>With the proliferation of satellites for remote sensing, myriad use-cases have emerged for applying computer vision for sustainability goals of monitoring forests, flood plains, mines, and farms</description>
+      <guid>/articles/satellite/</guid>
+      <description>With the proliferation of satellites for remote sensing, myriad use-cases have emerged for applying computer vision for sustainability goals of monitoring forests, flood plains, mines, and farms.</description>
     </item>
     
     <item>
-      <title>screens with built in Present and Dismiss animations.</title>
-      <link>/articles/post-3/</link>
-      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      <title>Tamil Nadu e-Governance: A Case-Study</title>
+      <link>/articles/tn-egovernance/</link>
+      <pubDate>Fri, 07 Jun 2019 10:07:21 +0600</pubDate>
       
-      <guid>/articles/post-3/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>/articles/tn-egovernance/</guid>
+      <description>A case study of successful e-governance initiatives by Government of Tamil Nadu.
+ Governments have to efficiently cater to a large number of services such as licensing, regulatory services, and citizen services across various domains such as health, education, and agriculture.</description>
     </item>
     
   </channel>
