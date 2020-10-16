@@ -49,6 +49,11 @@ URL = "projects"
 weight = 1
 
 [[menu.main]]
+name = "join-us"
+URL = "join-us"
+weight = 4
+
+[[menu.main]]
 name = "Contact"
 URL = "contact"
 weight = 4
