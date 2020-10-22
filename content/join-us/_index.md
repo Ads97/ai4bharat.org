@@ -1,6 +1,6 @@
 ---
-title: "Join us"
-subtitle: ""
+title: "Join Us!"
+subtitle: "Contribute to India through AI4Bharat Projects!"
 # meta description
 description: "This is meta description"
 draft: false

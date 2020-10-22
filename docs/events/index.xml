@@ -6,14 +6,25 @@
     <description>Recent content in Events on AI4Bharat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Apr 2020 10:07:21 +0600</lastBuildDate><atom:link href="/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jul 2019 10:07:21 +0600</lastBuildDate><atom:link href="/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Party at the Backyard</title>
-      <link>/events/event-1/</link>
-      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      <title>What&#39;s new in TensorFlow 2.0</title>
+      <link>/events/introducing-tensorflow-2.0/</link>
+      <pubDate>Thu, 25 Jul 2019 10:07:21 +0600</pubDate>
       
-      <guid>/events/event-1/</guid>
-      <description>Do join us</description>
+      <guid>/events/introducing-tensorflow-2.0/</guid>
+      <description>Date: 25 July, 2019 | Time: 2pm-3pm IST
+Description: Presentation by Google AI team on TensorFlow 2.</description>
+    </item>
+    
+    <item>
+      <title>AI4Bharat Launch</title>
+      <link>/events/ai4bharat-launch/</link>
+      <pubDate>Wed, 10 Jul 2019 10:07:21 +0600</pubDate>
+      
+      <guid>/events/ai4bharat-launch/</guid>
+      <description>Date: 10 July, 2019 | Time: 7:00pm IST
+Description: Join to learn what the community is about and how you can contribute.</description>
     </item>
     
   </channel>

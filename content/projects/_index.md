@@ -52,12 +52,12 @@ business:
 call_to_action:
   enable : true
   title : "Want to contribute?"
-  image : "images/cta.svg"
+  image : "images/raise-for-india.jpg"
   content : "If you are interested in contributing or suggesting new ideas or projects, you are more than welcome to join us!"
   button:
     enable : true
     label : "Join Us"
-    link : "contact"
+    link : "/join-us"
 ---
 
 
@@ -97,7 +97,7 @@ Creating open source NLP tools, models and datasets for all Indian languages usi
 
 Creating input tools for all Indian languages for typing in Indic scripts, in collaboration with Google AI and Pratham Books / StoryWeaver.
 
-<a href="http://xlit.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="http://transliteration.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
 <a href="https://github.com/AI4Bharat/IndianNLP-Transliteration" class="btn btn-primary btn-sm">Code</a>
 <a href="https://swipe.ai4bharat.org" class="btn btn-primary btn-sm">Indic Swipe Research</a>
 
