@@ -1,7 +1,7 @@
 ---
 title: "Events"
-subtitle: ""
+subtitle: "More events coming soon..."
 # meta description
-description: "This is meta description"
+description: "AI4Bharat Events"
 draft: false
 ---
