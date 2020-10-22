@@ -1,12 +1,39 @@
 ---
-title: "Join Us!"
+title: "Support Us!"
 subtitle: "Contribute to India through AI4Bharat Projects!"
 # meta description
 description: "This is meta description"
 draft: false
 ---
 
-## Why Join?
+## Brief Overview
+
+### How can I support?
+
+- You can volunteer to contribute to our projects
+- You can propose new projects
+- You can sponsor our works
+
+### Major Sponsors
+
+- Google AI India
+- IIT Madras
+- One Fourth Labs
+
+### How we support you?
+
+- Mentorship
+- Cloud Resources
+- Open Source Projects
+- Connecting with peers of similar interests
+- Research Publications
+
+---
+
+## Deatiled Overview
+
+### Why Join?
+
 #### SOFTWARE AND AI ENGINEERS
 * Access to projects based on carefully curated problem statements with the potential of creating significant ***impact*** by working with the government, academia, and NGOs
 
@@ -34,9 +61,9 @@ draft: false
 
 ---
 
-## AI4Bharat is built around projects
+### AI4Bharat is built around projects
 
-AI4Bharat has a flat organisation built around projects. A list of project statements are here. Each project will move through a lifecycle of problem discovery, solution building, and deployment. Some ideas on this process are [here](../articles/ai-process). Each project will be mentored by one or two experienced AI engineers and/or domain experts. Each project will additionally have engineering teams of size 2-5. Members of a project are expected to regularly e-meet, with a recommended frequency of once per week. All projects are required to update their progress monthly on the project pages. 
+AI4Bharat has a flat organisation built around projects. A list of project statements are here. Each project will move through a lifecycle of problem discovery, solution building, and deployment. Some ideas on this process are [here](/articles/ai-process). Each project will be mentored by one or two experienced AI engineers and/or domain experts. Each project will additionally have engineering teams of size 2-5. Members of a project are expected to regularly e-meet, with a recommended frequency of once per week. All projects are required to update their progress monthly on the project pages. 
 
 Each project page will include details of the current team and open positions, if any. Applicants are expected to go through these project pages and include the position they are applying for in the form below. 
 

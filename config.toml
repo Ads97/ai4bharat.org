@@ -49,7 +49,7 @@ URL = "projects"
 weight = 1
 
 [[menu.main]]
-name = "Join us"
+name = "Support us"
 URL = "join-us"
 weight = 4
 
