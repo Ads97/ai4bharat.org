@@ -1,97 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/</loc>
     <lastmod>2019-07-25T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/events/</loc>
     <lastmod>2019-07-25T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/events/introducing-tensorflow-2.0/</loc>
     <lastmod>2019-07-25T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/events/ai4bharat-launch/</loc>
     <lastmod>2019-07-10T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/articles/</loc>
     <lastmod>2019-06-27T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/articles/case/</loc>
     <lastmod>2019-06-27T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/articles/ai-process/</loc>
     <lastmod>2019-06-26T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/articles/railways/</loc>
     <lastmod>2019-06-18T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/articles/explainable-ai/</loc>
     <lastmod>2019-06-17T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/articles/overview-of-ai-in-indian-healthcare/</loc>
     <lastmod>2019-06-16T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/articles/satellite/</loc>
     <lastmod>2019-06-11T10:07:17+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/articles/tn-egovernance/</loc>
     <lastmod>2019-06-07T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/projects/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/contact/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/faq/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/privacy-policy/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/join-us/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/terms-conditions/</loc>
   </url>
-  
 </urlset>

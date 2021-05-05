@@ -112,7 +112,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 footer_content = "Address: IIT-Madras Research Park, Taramani, Chennai-600113"
 # copyright
 # copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
-copyright = "Made in ❤️ [with open-source](https://github.com/AI4Bharat/ai4bharat.org) by AI4Bharat"
+copyright = "[Made in ❤️ with open-source by AI4Bharat](https://github.com/AI4Bharat/ai4bharat.org)"
 
 # Preloader
 [params.preloader]

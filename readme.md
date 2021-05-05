@@ -7,13 +7,9 @@
 * Production build: `hugo -D`
 * Developer mode: `hugo server`
 
-#### How to Add Artices
+### How to add artices and events
 
-
-
-#### How to Add Events
-
-
+Add the required markdown file in the [`content`](/content) folder and rebuild the pages as instructed above.
 
 ### Credits
 

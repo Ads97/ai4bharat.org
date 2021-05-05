@@ -66,9 +66,9 @@ call_to_action:
 
 Creating open source NLP tools, models and datasets for all Indian languages using state-of-the-art deep learning approaches.
 
-<a href="http://indicnlp.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="https://indicnlp.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
 <a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf" class="btn btn-primary btn-sm">Paper</a>
-<a href="https://github.com/AI4Bharat" class="btn btn-primary btn-sm">Code</a>
+<a href="https://github.com/AI4Bharat/indic-bert" class="btn btn-primary btn-sm">Code</a>
 
 <table style="border-collapse: inherit; border-spacing: 20px;">
   <tr><th>Members</th><th>Mentors</th></tr>
@@ -97,7 +97,7 @@ Creating open source NLP tools, models and datasets for all Indian languages usi
 
 Creating input tools for all Indian languages for typing in Indic scripts, in collaboration with Google AI and Pratham Books / StoryWeaver.
 
-<a href="http://transliteration.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="https://transliteration.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
 <a href="https://github.com/AI4Bharat/IndianNLP-Transliteration" class="btn btn-primary btn-sm">Code</a>
 <a href="https://swipe.ai4bharat.org" class="btn btn-primary btn-sm">Indic Swipe Research</a>
 
@@ -125,7 +125,7 @@ Creating input tools for all Indian languages for typing in Indic scripts, in co
 
 Annotation tool for labeling datasets for machine learning and NLP tasks.
 
-<a href="http://docs.ezannotate.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="https://docs.ezannotate.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
 <a href="https://github.com/AI4Bharat/ezAnnotate" class="btn btn-primary btn-sm">Code</a>
 <a href="https://ezannotate.ai4bharat.org" class="btn btn-primary btn-sm">Demo</a>
 
@@ -148,7 +148,7 @@ Annotation tool for labeling datasets for machine learning and NLP tasks.
 
 Generating fonts using A.I. for Indian Language-Scripts using style-transfer GANs.
 
-<a href="http://fonts.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="https://fonts.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
 <a href="https://github.com/AI4Bharat/Fonts-for-Indian-Scripts" class="btn btn-primary btn-sm">Code</a>
 <a href="https://demo.fonts.ai4bharat.org" class="btn btn-primary btn-sm">Demo</a>
 
@@ -176,8 +176,8 @@ Generating fonts using A.I. for Indian Language-Scripts using style-transfer GAN
 
 Developing tools for recognizing and transcribing Indo Sign Language.
 
-<a href="http://sign-language.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
-<a href="#" class="btn btn-primary btn-sm">Code</a>
+<a href="https://sign-language.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
+<a href="https://github.com/AI4Bharat/INCLUDE" class="btn btn-primary btn-sm">Code</a>
 <a href="https://dl.acm.org/doi/10.1145/3394171.3413528" class="btn btn-primary btn-sm">Paper</a>
 
 <table style="border-collapse: inherit; border-spacing: 20px;">
@@ -186,7 +186,7 @@ Developing tools for recognizing and transcribing Indo Sign Language.
     <td>
       <table><tr>
         <td align="center"><a href="http://github.com/gRohith327"><img src="https://avatars0.githubusercontent.com/u/36641932?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Rohith</b></sub></a></td>
-        <td align="center"><a href="https://github.com/ads28"><img src="https://avatars0.githubusercontent.com/u/36174577?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Advaith</b></sub></a></td>
+        <td align="center"><a href="https://github.com/Ads97"><img src="https://avatars.githubusercontent.com/u/20744245?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Advaith</b></sub></a></td>
       </tr></table>
     </td>
     <td>
