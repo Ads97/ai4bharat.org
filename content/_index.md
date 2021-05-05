@@ -40,30 +40,30 @@ projects:
   title : "Projects Overview"
   feature_item:
     
-    - name : "[IndicNLP Suite](https://indicnlp.ai4bharat.org)"
+    - name : "🤗 [IndicNLP Suite](https://indicnlp.ai4bharat.org)"
       content : "Creating NLP tools, models and datasets for Indian languages ecosystem."
 
-    - name : "[Indic Transliteration](https://transliteration.ai4bharat.org)"
+    - name : "💻 [Indic Transliteration](https://transliteration.ai4bharat.org)"
       content : "Creating input tools for all Indian languages for typing in Indic scripts"
     
-    - name : "[Indic Swipe](https://swipe.ai4bharat.org)"
+    - name : "📱 [Indic Swipe](https://swipe.ai4bharat.org)"
       content : "Creating swipe-based keypad typing for Indian languages"
       
-    - name : "[Indian Sign Language](https://sign-language.ai4bharat.org/)"
+    - name : "🖖🏼 [Indian Sign Language](https://sign-language.ai4bharat.org/)"
       image : "images/smart-cities.jpg"
       content : "Developing tools for recognizing and transcribing Indo Sign Language."
 
-    - name : "[EZ-Annotate](https://docs.ezannotate.ai4bharat.org)"
+    - name : "🔨 [EZ-Annotate](https://docs.ezannotate.ai4bharat.org)"
       content : "Annotation tool for labeling datasets for machine learning tasks"
       
-    - name : "[IndicFonts](http://fonts.ai4bharat.org/)"
+    - name : "✍🏼 [IndicFonts](http://fonts.ai4bharat.org/)"
       image : "images/digital-india.jpg"
       content : "Generating fonts using A.I. for Indic scripts."
 
-    - name : "Indic OCR"
+    - name : "📄🔍 Indic OCR"
       content : "Coming Soon - Indic Scene Text Recognition and Document Extraction"
     
-    - name : "Indian Speech2Text"
+    - name : "🗣💬 Indian Speech2Text"
       content : "Coming Soon..."
 
 call_to_action:
