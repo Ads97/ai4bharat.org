@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI4Bharat</title>
+    <title>AI4Bhārat</title>
     <link>/</link>
-    <description>Recent content on AI4Bharat</description>
+    <description>Recent content on AI4Bhārat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-in</language>
     <lastBuildDate>Thu, 25 Jul 2019 10:07:21 +0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s new in TensorFlow 2.0</title>

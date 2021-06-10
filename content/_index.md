@@ -1,4 +1,6 @@
 ---
+title: "AI4Bhārat"
+subtitle: "Leading Aritifial Intelligence Progress for Indiā (Bhārat)"
 # meta description
 description: "Interested domains"
 draft: false

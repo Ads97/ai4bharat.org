@@ -64,7 +64,7 @@ call_to_action:
 
 {{< faq "🤗 IndicNLP" >}}
 
-Creating open source NLP tools, models and datasets for all Indian languages using state-of-the-art deep learning approaches.
+Creating open source NLP tools, models and datasets for Indian languages using state-of-the-art deep learning approaches.
 
 <a href="https://indicnlp.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
 <a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf" class="btn btn-primary btn-sm">Paper</a>
@@ -93,9 +93,39 @@ Creating open source NLP tools, models and datasets for all Indian languages usi
 
 {{</ faq >}}
 
+{{< faq "<span style='background-color: #FBAB60'>भ </span>	IndicTrans" >}}
+
+Creating open source machine translation models and parallel corpora (Samānantar) for Indian languages.
+
+<a href="https://indicnlp.ai4bharat.org/indic-trans/" class="btn btn-primary btn-sm">Website</a>
+<a href="https://indicnlp.ai4bharat.org/samanantar/" class="btn btn-primary btn-sm">Datasets</a>
+<a href="https://arxiv.org/abs/2104.05596" class="btn btn-primary btn-sm">Paper</a>
+<a href="https://github.com/AI4Bharat/IndicTrans" class="btn btn-primary btn-sm">Code</a>
+
+<table style="border-collapse: inherit; border-spacing: 20px;">
+  <tr><th>Members</th><th>Mentors</th></tr>
+  <tr>
+    <td>
+      <table><tr>
+        <td align="center"><a href="https://github.com/gowtham1997"><img src="https://avatars.githubusercontent.com/u/9641196?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Gowtham</b></sub></a></td>
+        <td align="center"><a href="https://github.com/sumanthd17"><img src="https://avatars.githubusercontent.com/u/28291870?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Sumanth</b></sub></a></td>
+      </tr></table>
+    </td>
+    <td>
+      <table><tr>
+        <td align="center"><a href="http://anoopk.in"><img src="https://avatars0.githubusercontent.com/u/2256602?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Anoop</b></sub></a></td>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~miteshk"><img src="https://avatars0.githubusercontent.com/u/4814357?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Mitesh</b></sub></a></td>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~pratyush"><img src="https://avatars0.githubusercontent.com/u/49815493?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Pratyush</b></sub></a></td>
+      </tr></table>
+    </td>
+  </tr>
+</table>
+
+{{</ faq >}}
+
 {{< faq "💻 Indic Input Tools" >}}
 
-Creating input tools for all Indian languages for typing in Indic scripts, in collaboration with Google AI and Pratham Books / StoryWeaver.
+Creating input tools for all Indian languages for typing in Indic scripts, in collaboration with Google AI and Pratham Books.
 
 <a href="https://transliteration.ai4bharat.org" class="btn btn-primary btn-sm">Website</a>
 <a href="https://github.com/AI4Bharat/IndianNLP-Transliteration" class="btn btn-primary btn-sm">Code</a>
@@ -163,8 +193,8 @@ Generating fonts using A.I. for Indian Language-Scripts using style-transfer GAN
     </td>
     <td>
       <table><tr>
-        <td align="center"><a href="https://www.cse.iitm.ac.in/~miteshk"><img src="https://avatars0.githubusercontent.com/u/4814357?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Mitesh</b></sub></a></td>
         <td align="center"><a href="https://www.cse.iitm.ac.in/~pratyush"><img src="https://avatars0.githubusercontent.com/u/49815493?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Pratyush</b></sub></a></td>
+        <td align="center"><a href="https://www.cse.iitm.ac.in/~miteshk"><img src="https://avatars0.githubusercontent.com/u/4814357?v=4" width="50px;" class="rounded-circle"/><br /><sub><b>Mitesh</b></sub></a></td>
       </tr></table>
     </td>
   </tr>
